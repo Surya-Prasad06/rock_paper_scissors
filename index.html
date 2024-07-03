@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rock paper scisoors</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <audio id="backgroundMusic" src="super_mario.mp3s" loop autoplay></audio>
+    <h1> Rock-Paper- Scissors</h1>
+    <div id="choices">
+        <button onclick="playGame('rock')">👊</button> <br><br>
+        <button onclick="playGame('paper')">🤚</button> <br><br>
+        <button onclick="playGame('scissors')">✌️</button> <br><br>
+    </div>
+    <div id="playerdisplay">PLAYER</div>
+    <div id="computerdisplay">computer</div>
+    <div id="resultdisplay"></div>
+
+    <div class="scoredisplay">player Score:
+        <span id="playerScoreDisplay">0</span>
+    </div>
+    <div class="scoredisplay">player Score:
+        <span id="computerScoreDisplay">0</span>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
